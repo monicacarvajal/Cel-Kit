@@ -1,2 +1,2 @@
-# Cel-Kit 
-este comentario es para mi proyecto 
+# Cel-Kit
+se hara una aplicacion para venta de accesorios para celulares
