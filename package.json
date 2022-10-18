@@ -1,0 +1,24 @@
+{
+  "name": "cel-kit",
+  "version": "1.0.0",
+  "description": "Tienda virtual de accesorios para celulares",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicacarvajal/Cel-Kit.git"
+  },
+  "author": "Zona de Desarrollo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monicacarvajal/Cel-Kit/issues"
+  },
+  "homepage": "https://github.com/monicacarvajal/Cel-Kit#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  }
+}
