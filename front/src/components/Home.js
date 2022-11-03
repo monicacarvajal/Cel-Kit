@@ -1,8 +1,18 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
+import MetaData from './layout/MetaData'
+import {useDispatch} from 'react-redux'
+import { getProducts } from '../actions/productActions'
 
 export const Home = () => {
+    const dispatch = useDispatch();
+    useEffect(()=>{
+        dispatch(getProducts());
+    }, [dispatch])
+
+
     return (
         <Fragment>
+            <MetaData title="Decora tu móvil con nuestros productos"></MetaData>
             <h1 id="encabezado_productos">Ultimos Productos</h1>
 
             <section id="productos" className='container mt-5'>
@@ -10,7 +20,7 @@ export const Home = () => {
                     {/*Producto 1*/}
                     <div className='col-sm-12 col-md-6 col-lg-3 my-3'>
                         <div className='card p-3 rounded'>
-                            <img className='card-img-top mx-auto' src='./images/auricular inalambrico.jpg' alt="Auricular Inalambrico"></img>
+                            <img className='card-img-top mx-auto' src='./images/auricular inalambrico.png' alt="Auricular Inalambrico"></img>
                             <div className='card-body d-flex flex-column'>
                                 <h5 id="titulo_producto"><a href='http://localhost:3000'>Auricular Inalambrico Para Celular</a></h5>
                                 <div className='rating mt-auto'>
