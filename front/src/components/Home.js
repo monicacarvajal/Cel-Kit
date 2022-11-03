@@ -20,7 +20,7 @@ export const Home = () => {
                     {/*Producto 1*/}
                     <div className='col-sm-12 col-md-6 col-lg-3 my-3'>
                         <div className='card p-3 rounded'>
-                            <img className='card-img-top mx-auto' src='./images/auricular inalambrico.png' alt="Auricular Inalambrico"></img>
+                            <img className='card-img-top mx-auto' src='./images/auricular_inalambrico.png' alt="Auricular Inalambrico"></img>
                             <div className='card-body d-flex flex-column'>
                                 <h5 id="titulo_producto"><a href='http://localhost:3000'>Auricular Inalambrico Para Celular</a></h5>
                                 <div className='rating mt-auto'>
@@ -39,7 +39,7 @@ export const Home = () => {
                     {/*Producto 2*/}
                     <div className='col-sm-12 col-md-6 col-lg-3 my-3'>
                         <div className='card p-3 rounded'>
-                            <img className='card-img-top mx-auto' src='./images/cargador inalambrico.jpg' alt="Cargador  Inalambrico"></img>
+                            <img className='card-img-top mx-auto' src='./images/cargador_inalambrico.jpg' alt="Cargador  Inalambrico"></img>
                             <div className='card-body d-flex flex-column'>
                                 <h5 id="titulo_producto"><a href='http://localhost:3000'>Cargador Inalambrico Para Celular</a></h5>
                                 <div className='rating mt-auto'>
@@ -96,7 +96,7 @@ export const Home = () => {
                     {/*Producto 5*/}
                     <div className='col-sm-12 col-md-6 col-lg-3 my-3'>
                         <div className='card p-3 rounded'>
-                            <img className='card-img-top mx-auto' src='./images/cubre cable.jpg' alt="Cubre Cable"></img>
+                            <img className='card-img-top mx-auto' src='./images/cubre_cable.jpg' alt="Cubre Cable"></img>
                             <div className='card-body d-flex flex-column'>
                                 <h5 id="titulo_producto"><a href='http://localhost:3000'>Cubre Cable Para Cargador</a></h5>
                                 <div className='rating mt-auto'>
@@ -153,7 +153,7 @@ export const Home = () => {
                     {/*Producto 8*/}
                     <div className='col-sm-12 col-md-6 col-lg-3 my-3'>
                         <div className='card p-3 rounded'>
-                            <img className='card-img-top mx-auto' src='./images/pop so.jpg' alt="Pop Socket"></img>
+                            <img className='card-img-top mx-auto' src='./images/pop_so.jpg' alt="Pop Socket"></img>
                             <div className='card-body d-flex flex-column'>
                                 <h5 id="titulo_producto"><a href='http://localhost:3000'>Pop Socket Para Celular</a></h5>
                                 <div className='rating mt-auto'>
