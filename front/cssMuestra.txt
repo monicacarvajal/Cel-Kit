@@ -1,0 +1,616 @@
+html,
+cuerpo {
+  familia de fuentes: 'Amazon Ember';
+  ancho: 100%;
+  altura: 100%;
+  margen: 0px;
+  relleno: 0px;
+  desbordamiento-x: oculto;
+}
+
+/* Barra de desplazamiento */
+
+::-webkit-barra-de-desplazamiento-pista {
+  color de fondo: #f5f5f5;
+}
+
+::-webkit-barra de desplazamiento {
+  ancho: 8px;
+  color de fondo: #f5f5f5;
+}
+
+::-webkit-scrollbar-pulgar {
+  color de fondo: rgba(66, 66, 66, 0.2);
+  borde: 0px;
+  clip de fondo: caja de relleno;
+  borde-radio: 5px;
+}
+
+navegación {
+  color de fondo: #232f3e;
+  relleno: 1rem 1rem;
+}
+
+#buscar_btn {
+  color de fondo: #febd69;
+}
+
+.grupo de entrada {
+  ancho: 90%;
+  margen derecho: 35%;
+}
+
+#campo de búsqueda {
+  altura: 2,4 rem;
+  relleno: 1 rem;
+}
+
+#login_btn,
+#ver_btn {
+  color de fondo: #febd69;
+  relleno: 0,4 rem 1,8 rem;
+  familia de fuentes: calibri;
+}
+
+#carrito {
+  tamaño de fuente: 1 rem;
+  color blanco;
+}
+
+#cart_count {
+  color de fondo: #febd69;
+  relleno: 0,2 rem 0,5 rem;
+  borde-radio: 0.2rem;
+  de color negro;
+  fuente-peso: negrita;
+  tamaño de fuente: 0,9 rem;
+}
+
+/* Pagina de inicio */
+#productos_encabezado {
+  margen superior: 1,8 rem;
+}
+
+.tarjeta {
+  altura: 100%;
+}
+
+.tarjeta-título a {
+  color: #2e2e2e;
+}
+
+.card-title a: hover {
+  color: #fa9c23;
+  texto-decoración: ninguno;
+}
+
+.tarjeta-cuerpo {
+  relleno-izquierda: 0;
+}
+
+.tarjeta-texto {
+  tamaño de fuente: 1,4 rem;
+}
+
+#ver_btn {
+  color de fondo: #fa9c23;
+  color blanco;
+}
+
+.card-img-superior {
+  ancho: 200px;
+  altura: 150px;
+}
+
+.puntuaciones {
+  tamaño de fuente: 1,2 rem;
+  color: #fdcc0d;
+}
+
+#nº_de_reseñas {
+  tamaño de fuente: 0,85 rem;
+  color: gris;
+  margen izquierdo: 0,5 rem;
+}
+
+/* Pie de página */
+pie de página {
+  margen superior: 8rem;
+  color: gris;
+  inferior: 0;
+  ancho: 100%;
+}
+
+/* Calificaciones */
+
+.rating-outer {
+  pantalla: bloque en línea;
+  posición: relativa;
+  familia de fuentes: FontAwesome;
+  color: #fdcc0d;
+}
+
+.rating-outer::before {
+  contenido: '\f006 \f006 \f006 \f006 \f006';
+}
+
+.rating-inner {
+  posición: absoluta;
+  superior: 0;
+  izquierda: 0;
+  espacios en blanco: nowrap;
+  desbordamiento: oculto;
+  ancho: 0;
+}
+
+.rating-inner::before {
+  contenido: '\f005 \f005 \f005 \f005 \f005';
+  color: #f8ce0b;
+}
+
+/* Página de detalles del producto */
+#identificación de producto {
+  color: gris;
+  tamaño de fuente: 0,8 rem;
+}
+
+#precio del producto {
+  tamaño de fuente: 2rem;
+  fuente-peso: negrita;
+}
+
+#carrito_btn,
+#review_btn {
+  borde-radio: 2rem;
+  color de fondo: #fa9c23;
+  borde: ninguno;
+  relleno: 0.5rem 2rem;
+}
+
+#producto_vendedor {
+  color: gris;
+  tamaño de fuente: 0,9 rem;
+}
+
+#estado del inventario {
+  tamaño de fuente: 1,1 rem;
+  fuente-peso: negrita;
+  margen izquierdo: 0,3 rem;
+}
+
+.color rojo {
+  color rojo;
+}
+
+.color verde {
+  color verde;
+}
+
+#Imagen del producto {
+  margen superior: 9rem;
+}
+
+/* Cargador */
+.cargador {
+  bloqueo de pantalla;
+  margen izquierdo: automático;
+  margen derecho: automático;
+  margen superior: 20%;
+  ancho: 80px;
+  altura: 80px;
+  relleno-izquierda: 0;
+}
+.loader:después de {
+  contenido: ' ';
+  bloqueo de pantalla;
+  ancho: 64px;
+  altura: 64px;
+  margen: 8px;
+  borde-radio: 50%;
+  borde: 6px sólido #fa9c23;
+  color del borde: #fa9c23 transparente;
+  animación: lds-dual-ring 1.2s lineal infinito;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transformar: rotar (0 grados);
+  }
+  100% {
+    transformar: rotar (360 grados);
+  }
+}
+
+/* Carrito */
+
+.cart-item {
+  margen: 1,8 rem 0 rem;
+  relleno: 0 rem 0,7 rem;
+}
+
+.cart-artículo a {
+  color: gris;
+}
+
+#delete_cart_item {
+  color rojo;
+  fondo: blanco;
+  relleno: 0,3 rem 0,5 rem;
+  tamaño de fuente: 1,1 rem;
+  borde: ninguno;
+}
+
+#card_item_price {
+  color: #febd69;
+  fuente-peso: negrita;
+  tamaño de fuente: 1,4 rem;
+}
+
+#checkout_btn,
+.review-btn {
+  color de fondo: #fa9c23;
+  color del borde: #fa9c23;
+  margen superior: 2rem;
+  borde-radio: 5rem;
+}
+
+#Ver detalles de la orden {
+  color de fondo: #fa9c23;
+  color del borde: #fa9c23;
+}
+
+#order_summary {
+  borde: 1px sólido #e3e3e3;
+  borde-radio: 1rem;
+  relleno: 2 rem 1,5 rem;
+}
+
+.order-resumen-valores {
+  flotar derecho;
+  fuente-peso: negrita;
+}
+
+.stockContador de entrada {
+  borde: ninguno;
+  ancho: 3 rem;
+  alineación de texto: centro;
+}
+
+.más,
+.menos {
+  relleno: 0,1 rem 0,5 rem;
+}
+
+.stockEntrada de contador::-webkit-outer-spin-button,
+.stockCounter input::-webkit-inner-spin-button {
+  -apariencia de webkit: ninguno;
+  margen: 0;
+}
+
+.form-control: deshabilitado,
+.form-control[solo lectura] {
+  color de fondo: blanco;
+}
+
+/* Iniciar sesión y registrarse */
+
+.envoltura {
+  pantalla: flexible;
+  justificar-contenido: centro;
+  alinear elementos: centro;
+  margen superior: 5rem;
+
+  peso de fuente: 700;
+}
+
+formulario .wrapper {
+  relleno: 2,5 rem 3 rem;
+}
+
+formulario .wrapper .btn {
+  color de fondo: #fa9c23;
+  color del borde: #fa9c23;
+  color blanco;
+  margen superior: 2,5 rem;
+}
+
+.envoltorio forma un {
+  tamaño de fuente: 0,9 rem;
+  color: gris;
+}
+
+/*Avatar*/
+.avatar {
+  pantalla: bloque en línea;
+  margen inferior: 0;
+  altura: 3 rem;
+  ancho: 3 rem;
+  -webkit-border-radio: 50%;
+  -moz-border-radius: 50%;
+  borde-radio: 50%;
+}
+
+.imagen de avatar {
+  ancho: 100%;
+  altura: 100%;
+  ajuste de objeto: cubierta;
+}
+
+.círculo redondeado {
+  borde-radio: 50% !importante;
+}
+
+.btn.focus,
+.btn:enfoque {
+  contorno: 0;
+  sombra de caja: ninguna;
+}
+
+/* Perfil de usuario de encabezado */
+
+.avatar-nav {
+  margen derecho: 0,6 rem;
+  altura: 2,2 rem;
+  ancho: 2,2 rem;
+}
+
+/* Pasos de pago */
+
+.checkout-progreso div {
+  tamaño de caja: cuadro de borde;
+}
+
+.checkout-progreso {
+  bloqueo de pantalla;
+  Limpia los dos;
+  margen: 20px automático;
+  ancho: automático;
+  familia tipográfica: sans-serif;
+  desbordamiento: automático;
+}
+
+.paso {
+  margen: 0;
+  borde: 0;
+  espaciado entre letras: 1px;
+  altura de línea: 30px;
+  relleno: 5px 10px 5px 15px;
+  color: gris;
+  texto-decoración: ninguno;
+  cursor: predeterminado;
+  fuente-peso: negrita;
+  flotador izquierdo;
+  altura: automático;
+}
+
+.incompleto {
+  fondo: #eeeeee;
+}
+
+.paso activo {
+  fondo: #fa9c23;
+  color: #fff;
+}
+
+.triángulo-activo {
+  flotador izquierdo;
+  ancho: 0;
+  borde superior: 20px sólido transparente;
+  borde izquierdo: 15px sólido #fa9c23;
+  borde inferior: 20px sólido transparente;
+  margen izquierdo: -1px;
+}
+
+.triangle2-activo {
+  ancho: 0;
+  flotador izquierdo;
+  borde superior: 20px sólido #fa9c23;
+  borde izquierdo: 15px sólido #fff;
+  borde inferior: 20px sólido #fa9c23;
+  margen derecho: -1px;
+}
+
+.triángulo-incompleto {
+  flotador izquierdo;
+  ancho: 0;
+  borde superior: 20px sólido transparente;
+  borde izquierdo: 15px sólido #eeeeee;
+  borde inferior: 20px sólido transparente;
+  margen izquierdo: -1px;
+}
+
+.triangle2-incompleto {
+  ancho: 0;
+  flotador izquierdo;
+  borde superior: 20px sólido #eeeeee;
+  borde izquierdo: 15px sólido #fff;
+  borde inferior: 20px sólido #eeeeee;
+  margen derecho: -1px;
+}
+
+/* Perfil del usuario */
+
+.avatar-perfil {
+  altura: 16 rem;
+  ancho: 16 rem;
+}
+
+.información de usuario h4 {
+  peso de fuente: 800;
+  color: gris;
+  margen superior: 2rem;
+}
+
+.información de usuario p {
+  tamaño de fuente: 1,1 rem;
+}
+
+#Editar perfil {
+  color de fondo: #fa9c23;
+  color del borde: #fa9c23;
+}
+
+/* Confirmar pedido */
+
+.pedido-confirmar p,
+.order-detalles p {
+  margen izquierdo: 1,5 rem;
+}
+
+.update-btn {
+  color de fondo: #fa9c23;
+  color del borde: #fa9c23;
+  color blanco;
+}
+
+.update-btn: hover {
+  color blanco;
+}
+
+/* Paginación */
+.elemento de página.activo .enlace de página {
+  color de fondo: #fa9c23;
+  color del borde: #fa9c23;
+}
+
+.página-enlace {
+  color: #fa9c23;
+}
+
+.page-link: hover {
+  color: #fa9c23;
+}
+
+/* Barra lateral de administración */
+
+.sidebar-envoltura {
+  pantalla: flexible;
+  ancho: 100%;
+  alinear elementos: estirar;
+  min-altura: 100vh;
+  peso de fuente: normal;
+
+  margen superior: 0;
+  altura: 100%;
+  izquierda: 0;
+  superior: 0;
+  índice z: 10;
+}
+#barra lateral {
+  ancho mínimo: 100%;
+  ancho máximo: 100%;
+  fondo: #232f3e;
+  color: #fff;
+  transición: todo 0.3s;
+}
+#sidebar.activo {
+  margen izquierdo: -250px;
+}
+
+#sidebar .sidebar-header {
+  relleno: 20px;
+  fondo: #232f3e;
+}
+#sidebar ul.componentes {
+  relleno: 5px 0px;
+  borde inferior: 1px sólido #232f3e;
+}
+
+#barra lateral ul li a {
+  relleno: 10px;
+  tamaño de fuente: 1,1 em;
+  bloqueo de pantalla;
+  color blanco;
+  texto-decoración: ninguno;
+}
+#barra lateral ul li a: pasar el cursor {
+  color: #232f3e;
+  fondo: #fff;
+}
+
+#barra lateral ul li ai {
+  margen derecho: 0,3 rem;
+}
+
+#sidebar ul li.active > a,
+a[aria-expandida='verdadero'] {
+  color: #fff;
+  fondo: #232f3e;
+}
+a[cambio de datos='contraer'] {
+  posición: relativa;
+}
+.dropdown-toggle::después de {
+  bloqueo de pantalla;
+  posición: absoluta;
+  arriba: 50%;
+  derecha: 20px;
+  transformar: traducirY(-50%);
+}
+
+ul ul un {
+  tamaño de fuente: 1rem !importante;
+  relleno-izquierda: 30px !importante;
+  fondo: #232f3e;
+}
+
+ul.CTA {
+  relleno: 20px;
+}
+
+ul.CTAs a {
+  alineación de texto: centro;
+  tamaño de fuente: 0.9em !importante;
+  bloqueo de pantalla;
+  borde-radio: 5px;
+  margen inferior: 5px;
+}
+
+/* Administrador de lista de productos */
+#productos_tabla .btn {
+  relleno: 0,2 rem 0,5 rem;
+  margen izquierdo: 0,4 rem;
+}
+
+/* Tablero */
+
+.tarjeta-tamaño-de-fuente {
+  tamaño de fuente: 1,5 rem;
+}
+
+/* Reseñas */
+
+.calificación {
+  margen superior: 10rem;
+}
+
+.estrellas {
+  altura: 100px;
+  pantalla: flexible;
+  alinear elementos: centro;
+  relleno-izquierda: 0;
+}
+
+.estrella {
+  pantalla: en línea;
+  estilo de lista: ninguno;
+  tamaño de fuente: 3rem;
+  relleno izquierdo: 0,9 rem;
+  color: #e3e3e3;
+}
+
+.star:primer hijo {
+  relleno-izquierda: 0;
+}
+
+.naranja {
+  color: #fa9c23;
+}
+
+.amarillo {
+  color: #fdcc0d;
+}
+
+.review_user {
+  tamaño de fuente: 0,8 rem;
+  color: gris;
+}

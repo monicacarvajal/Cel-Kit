@@ -1,11 +1,16 @@
 import './App.css';
 import React from 'react';
+import Header from './components/layout/Header';
+import { Footer } from './components/layout/Footer';
+import Home from './components/Home';
+
 
 function App() {
   return (
     <div className="App">
-        <h1>Tienda de accesorios para celulares Cel-Kit</h1>
-        <img src="./images/Cel_kit.png" alt="Aqui va el logo"></img>
+        <Header />
+        <Home />
+        <Footer />
     </div>
   );
 }
