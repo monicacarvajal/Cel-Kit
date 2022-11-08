@@ -42,9 +42,11 @@ const productosSchema=mongoose.Schema({
                 "Cargador inalambrico para celulares",
                 "Forros resistentes para celulares",
                 "Forros de plactico para celulares",
-                "Cable USB para telefonos moviles",
                 "PopSocKets",
-                "Vidrios templados para celulares",
+                "Protector de pantalla para celulares",
+                "Aros de luz",
+                "Tripodes",
+                "Smartband"
             ]
         }
     },
