@@ -1,9 +1,12 @@
 import React, { Fragment } from 'react'
+import "../../App.css"
+import { Link } from "react-router-dom"
 
-const header = () => {
-  return (
-    <Fragment>
-        <nav className='navbar row'>
+const Header = () => {
+
+    return (
+        <Fragment>
+            <nav className='navbar row'>
                 <div className='col-12 col-md-3'>
                     <div className='navbar-brand'>
                         <img src="./images/cel_kit.png" alt="Cel Kit Logo"></img>
@@ -17,22 +20,35 @@ const header = () => {
                             id="search_field"
                             class="form-control"
                             placeholder='Que producto busca?'></input>
-                            <div class="input-group-append">
-                                <button id="search-btn" class="btn">
-                                    <i class="fa fa-search fa-2x text-white" aria-hidden="true"></i>
-                                    </button>
-                            </div>
+                        <div class="input-group-append">
+                            <button id="search-btn" class="btn">
+                                <i class="fa fa-search fa-2x text-white" aria-hidden="true"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
-                    <span><button class="btn btn-primary" type="submit">Inicie Sesión</button></span>
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <div className="ml-4 dropdown d-inline">
+                        <Link to="#!" className="btn dropdown-toggle text-white mr-4" type="button"
+                        id="dropDownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>Panel de Control</span></Link>
+                            <div className='dropdown-menu' aria-labelledby='dropDownMenu'>
+                                <Link className="dropdown-item" to="/dashboard">Adm. Productos</Link>
+                                <Link className="dropdown-item" to="/">Pedidos</Link>
+                                <Link className="dropdown-item" to="/">Mi cuenta</Link>
+                                <Link className="dropdown-item" to="/">Cerrar Sesion</Link>
+                            </div>
+                    </div>
+
                     <i class="fa fa-shopping-cart fa-2x text-white" aria-hidden="true"></i>
                     <span className="ml-1" id="cart_count">2</span>
                 </div>
-            </nav>    
-    </Fragment>
-  )
-}
 
-export default header
+            </nav>   
+
+        </Fragment>
+    )
+
+    }
+
+export default Header
