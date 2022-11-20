@@ -1,0 +1,36 @@
+{
+    "item": [
+        {
+            "_id": "6363e6c71445f21a89b7bb85",
+            "nombre": "Aros para celular",
+            "precio": 30000,
+            "imagen": "./images/productos/aros_celulares.jpg",
+            "inventario": 50,
+            "__v": 0
+        },
+        {
+            "_id": "636442e1d0ab3685c48a08ec",
+            "nombre": "Protector de pantalla",
+            "precio": 30000,
+            "imagen": "./images/productos/protector_de_pantalla.jpg",
+            "inventario": 50,
+            "__v": 0
+        },
+        {
+            "_id": "636446ecd0ab3685c48a0901",
+            "nombre": "Tripode",
+            "precio": 80000,
+            "imagen":  "./images/productos/tripode.jpg",
+            "inventario": 50,
+            "__v": 0
+        },
+        {
+            "_id": "63644801d0ab3685c48a0904",
+            "nombre": "Smartband",
+            "precio": 10000,
+            "imagen":"./images/productos/smartband.jpg",
+            "inventario": 50,
+            "__v": 0
+        }
+    ]
+}

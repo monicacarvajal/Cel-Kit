@@ -51,9 +51,7 @@ export const Home = () => {
                     ))}
                     </div>
             </section>
-
                 </Fragment>
-                
             )}
             
 
